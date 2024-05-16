@@ -1,0 +1,629 @@
+body {
+    background-color: #434343;
+}
+
+.text {
+    color: white;
+    
+}
+
+h1{
+    
+}
+.logo21{
+    display: block;
+      margin-left: auto;
+    margin-right: auto;
+    
+width: 40%;
+    
+}
+
+box{
+    width: 3000px;
+      height:9px;
+  background-color:white;
+ 
+}
+
+.link {
+    color: #0091FF;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid black;
+    margin: 0;
+}
+
+.button1 {
+      padding:50px 32.6px;
+      font-size:14px;
+      text-align:center;
+      cursor:pointer;
+      outline:none;
+      color: #04AA6D;
+      background-color: #04AA6D;
+    border:#ffffff;
+      border-color: #fff;
+      border-radius: 15px;
+      transition-duration: 0.7s;
+      box-shadow: 0 9px #093300;
+      margin-left: -80px;
+
+      
+}
+
+.button1:hover {
+    color: #fff;
+transform: translateY(-8px);
+}
+
+.button1:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #072900;
+  transform: translateY(-8px);
+}
+
+.Map {
+    position: absolute;
+    top: 637.5%;
+    right: 25%;
+
+    display: block;
+    width: 50%;
+    height: 72.05%;
+    z-index: -1;
+}
+
+
+
+
+.Poltava {
+    position: absolute;
+    top: 653.0%;
+    right: 37.6%;
+    overflow: hidden;
+    height:  18.75%;
+    width: 9%;  
+    font-size:12px;
+    rotate: 0deg;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+}
+
+.Poltava:hover {
+    color: #434343;
+    transform: translateY(-8px);
+    filter: hue-rotate(-0.25turn) opacity(85%);
+}
+
+.Poltava:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+    transform: translateY(-8px);
+}
+
+.Poltava span {
+    display: inline-block;
+    transform: translateY(-5px)translateX(25px);
+    font-size: 14px;
+}
+
+.Polissya {
+    position: absolute;
+    top: 637%;
+    right: 40%;
+    overflow: hidden;
+    height:  20%;
+    width: 29.5%;  
+    font-size:12px;
+    rotate: 0deg;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(90%);
+    z-index:0;
+}
+
+.Polissya:hover {
+    color: #434343;
+    transform: translateY(-8px);
+    filter: hue-rotate(-0.25turn) opacity(85%);
+}
+
+.Polissya:active {
+    color: transparent;
+    position: absolute;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+    transform: translateY(-8px);
+    z-index: 2;
+}
+
+.Polissya .sp1{
+    display: inline-block;
+    transform: translateY(5px)translateX(70px);
+    font-size: 12px;
+
+}
+
+.Polissya .sp2{
+    display: inline-block;
+    transform: translateY(5px)translateX(220px);
+    font-size: 12px;
+}
+
+.Slob {
+    position: absolute;
+    top: 647.25%;
+    right: 30.75%;
+    overflow: hidden;
+    height:  24.60%;
+    width: 13.5%;  
+    font-size:10px;
+    rotate: 0deg;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+}
+
+.Slob:hover {
+    color: #434343;
+    transform: translateY(-8px);
+    filter: hue-rotate(-0.25turn) opacity(85%);
+}
+
+.Slob:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+    transform: translateY(-8px);
+}
+
+.Slob span {
+    display: inline-block;
+    transform: translateY(10px)translateX(70px);
+    font-size: 10px;
+}
+
+.Slobb{
+    border: none;
+    position: absolute;
+    top: 632.5%;
+    right: 30.0%;
+    width: 10%;
+    height: 20%;
+    cursor:default;
+    overflow: hidden;
+    background-color: transparent;
+    rotate: 55deg;
+    filter:opacity(50%);
+}
+
+.Nadd {
+    position: absolute;
+    top: 652.3%;
+    right: 42.5%;
+    overflow: hidden;
+    height:  27.35%;
+    width: 12.5%;  
+    font-size:10px;
+    rotate: 0deg;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+}
+
+.Nadd:hover {
+    color: #434343;
+    transform: translateY(-8px);
+    filter: hue-rotate(90deg) opacity(85%);
+}
+
+.Nadd:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+    transform: translateY(-8px) ;
+}
+.Nadd span {
+    display: inline-block;
+    transform: translateX(10%);
+    font-size: 115%;
+
+}
+
+.Volyn {
+    position: absolute;
+    overflow-y:visible;
+    top: 638.0%;
+    right: 63.25%;
+    height:  25.5%;
+    width: 6%;
+    font-size:10px;
+    rotate: -46.5deg;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+}
+
+.Volyn:hover {
+    color: #434343;
+    transform: translateY(-5.65px) translateX(5.65px);
+    filter: hue-rotate(90deg) opacity(85%);
+}
+
+.Volyn:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+
+}
+
+.Volyn span {
+    display: inline-block;
+    transform: rotate(46.5deg);
+    font-size: 15px;
+}
+
+.Podillya {
+    position: absolute;
+    overflow-y:visible;
+    top: 662.55%;
+    right: 51.9%;
+    height:  20%;
+    width: 12%;
+    font-size:10px;
+
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+
+
+}
+
+.Podillya:hover {
+    color: #434343;
+    transform: translateY(-8px) ;
+    filter: hue-rotate(90deg) opacity(85%);
+}
+
+.Podillya:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+
+}
+
+.Podillya span {
+    display: inline-block;
+    transform: translateY(-12px)translateX(45px);
+    font-size: 15px;
+
+}
+
+.podb{
+    border: none;
+    position: absolute;
+    top: 667.55%;
+    right: 62.75%;
+    height:  12%;
+    width: 4%;
+    cursor:default;
+    overflow: hidden;
+    background-color: transparent;
+    rotate: 70deg;
+    filter:opacity(50%);
+}
+
+.Bukovyna {
+    position: absolute;
+    overflow-y:visible;
+    top: 670.75%;
+    right: 60.05%;
+
+
+    height:  8.75%;
+    width: 7.25%;
+    font-size:10px;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+
+
+}
+
+.Bukovyna:hover {
+    color: #434343;
+    transform: translateY(-8px) ;
+    filter: hue-rotate(90deg) opacity(85%);
+}
+
+.Bukovyna:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+
+}
+
+.Bukovyna span {
+    display: inline-block;
+    transform: rotate(-25deg) translateY(-3px)translateX(2px);
+    font-size: 12px;
+
+}
+
+.Borschiv {
+    position: absolute;
+    overflow-y:visible;
+    top: 668.5%;
+    right: 63.1%;
+    height:  4%;
+    width: 2.4%;
+    font-size:10px;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+
+
+}
+
+.Borschiv:hover {
+    transform: translateY(-8px);
+    filter: hue-rotate(-0.25turn) opacity(85%);
+}
+
+.Borschiv:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+
+}
+
+.Borschiv span {
+    display: inline-block;
+    transform: rotate(-20deg) translateY(-25px)translateX(-20px);
+    font-size: 12px;
+    filter:opacity(0%);
+}
+
+.Borschiv:hover span {
+    display: inline-block;
+    transform: rotate(-20deg) translateY(-25px)translateX(-20px);
+    font-size: 12px;
+    filter:opacity(100%);
+}
+
+.Borschiv:active span {
+    display: inline-block;
+    transform: rotate(-20deg) translateY(-25px)translateX(-20px);
+    font-size: 12px;
+    filter:opacity(0%);
+}
+
+
+
+
+.Zak {
+    position: absolute;
+    overflow-y:visible;
+    top: 667%;
+    right: 68%;
+    height:  11%;
+    width: 7%;  
+    font-size:10px;
+    rotate: 0;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+
+
+}
+
+.Zak:hover {
+    color: #434343;
+    transform: translateY(-8px) ;
+    filter: hue-rotate(-0.25turn) opacity(85%);
+}
+
+.Zak:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+
+}
+
+.Zak span {
+    display: inline-block;
+    transform: rotate(25deg) translateY(-13px)translateX(-22px);
+    font-size: 12px;
+
+}
+
+.Crimea {
+    position: absolute;
+    overflow-y:visible;
+    top: 692.5%;
+    right: 34.6%;
+    height:  17%;
+    width:12%;  
+    font-size:15px;
+    rotate: 0;
+    text-align:left;
+    cursor:crosshair;
+    outline:none;
+    color: transparent;
+    background-color: transparent;
+    border: none;
+    transition-duration: 0.3s;
+    filter:opacity(85%);
+
+
+}
+
+.Crimea:hover {
+    color: #434343;
+    transform: translateY(-8px) ;
+    filter: hue-rotate(-0.25turn) opacity(85%) ;
+}
+
+.Crimea:active {
+    color: transparent;
+
+    background-color: trasparent;
+    box-shadow: 0 5px transparent;
+    transform:scaleX(100%)scaleY(100% ) translateY(-8px);
+}
+
+.Crimea span {
+    display: inline-block;
+    transform: translateY(-5px)translateX(25px) ;
+    font-size: 16px;
+
+}
+
+
+.ModeButton{
+    position: sticky;
+    top:1.5%;
+    left:0.75%;
+    width: 25px;
+    height: 25px;
+    border: none;
+    color: transparent;
+    border-radius: 50%;
+    z-index: 1;
+    transition-duration: 0.2s;
+    transform:scaleX(80%)scaleY(80%);
+}
+
+.ModeButton:hover{
+    transform:scaleX(100%)scaleY(100%);
+    
+}
+
+.ModeButton:active{
+        transform:scaleX(80%)scaleY(80%) rotate(60deg);
+}
+
+.bbb{ 
+    
+    position: block;
+    width: 97%;
+    
+
+
+}
+
+.bbb .bbb2{ 
+    position: relative;
+    transform: translateY(0%);
+    width: 500px;
+    max-width:100%;
+    max-height:666px;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:transparent;
+    text-align: center;
+}
+
+.bbb2 span{
+    
+}
+
+.symbols .symbolPic{
+    position: absolute;
+    transform:translateY(-50%)translateX(-50%);
+    width: 300px;
+    height:400px;
+    transition-duration: 0.2s;
+    z-index: -1;
+}
+.symbols:hover .symbolPic{
+    transform:translateY(-50%)translateX(-50%) scaleX(102%)scaleY(102%);
+}
+
+.symbols:active .symbolPic{
+    transform:translateY(-50%)translateX(-50%) scaleX(98%)scaleY(98%);
+}
+
+.symbols .p22{
+    position: absolute;
+    transform:translateY(-50%)translateX(-50%);
+    width: 300px;
+    height:400px;
+        z-index: -2;
+
+}
+
+.symbols{
+    background-color:transparent;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    height:400px;
+    max-width:80%;
+    z-index: 1;
+    border:none; 
+    background-color: transparent;
+}
+
